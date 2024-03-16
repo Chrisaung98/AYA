@@ -1,0 +1,177 @@
+.our_key_enabler_section {
+	background-image: url('../../images/about-aya/corporate-strategy/our_key_enablers_bg.webp');
+	height: 330px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center -80px;
+}
+.key_enablers_outer {
+	position: relative;
+	height: 280px;
+}
+.key_enablers_icon {
+	width: 60%;
+	margin-left: 40px;
+}
+.csr_key_lable {
+	font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 45px;
+}
+.key_enablers_health_desc {
+	padding: 0px 50px;
+	margin-left: -30px;
+	margin-bottom: 30px;
+}
+.dashboard_bottom_hr {
+    border-bottom: 5px solid #A5000B;
+    width: 100px !important;
+    margin: 0.5rem 0;
+}
+.committee_meeting_table_div {
+	border-radius: 10px 10px 3px 3px;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	padding: 0 !important;
+}
+.committee_meeting_table {
+	border-radius: 10px 10px 3px 3px;
+	background-color: #9f2226;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	margin-bottom: 0px !important;
+}
+.committee_table_div {
+	border-radius: 10px;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	padding: 0 !important;
+}
+.committee_table {
+	border-radius: 10px;
+	background-color: #9f2226;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	margin-bottom: 0px !important;
+	margin-bottom: -170px !important;
+}
+.committees_table_icon {
+	width: 40%;
+}
+.committees_member_table_icon {
+	width: 32%;
+}
+.committee_meeting_table > tbody > tr > td, .committee_meeting_table > thead > tr > td {
+	padding: 1.5rem 1rem 1.5rem 2.5rem !important;
+	border-color: #f9f9fb;
+}
+.committee_meeting_table > tbody > tr > td:not(:last-child), .committee_meeting_table > thead > tr > td:not(:last-child) {
+	border-right-width: 2px !important;
+}
+.table-header-label {
+	font-size: 12px;
+	width: 20px;
+}
+.committee_meeting_table > tbody > tr > td {
+	border-bottom-width: 2px !important;
+}
+.interest_rates_fees_table {
+	box-shadow: 0 0 17px 0px rgb(149 149 149 / 15%), 0 0px 20px 10px rgb(149 149 149 / 15%);
+}
+
+.category_title > img {
+	width: 30%;
+}
+.category_title > span {
+	position: absolute;bottom: 20px;left: 35%;
+}
+
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.key_enablers_icon {
+	    width: 55%;
+	}
+	.key_enablers_health_lable{
+    	left: 16%;
+	}
+	.key_area_tab {
+		justify-content: center;
+	}
+	.aspects-icon-td {
+    	width: 13%;
+    }
+    .our_key_enabler_section {
+	    background-position: center -60px;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.key_area_tab {
+		justify-content: center;
+	}
+	.aspects-icon-td {
+    	width: 13%;
+    }
+    .our_key_enabler_section {
+	    background-position: center -60px;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.key_enablers_icon {
+    	width: 65%;
+    }
+    .key_enablers_health_lable {
+    	left: 16%;
+    }
+    .key_area_tab {
+		justify-content: center;
+	}
+	.aspects-icon-td {
+    	width: 15%;
+    }
+    .our_key_enabler_section {
+	    background-position: center -60px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.our_key_enabler_section {
+		height: auto;
+		background-image: none;
+	}
+	.key_enablers_icon {
+		left: 30%;
+		width: 50%;
+	}
+	.extra_space {
+		height: 0px;
+	}
+	.key_area_tab {
+		justify-content: center;
+	}
+	.aspects-icon-td {
+	    width: 30%;
+	    vertical-align: top;
+	}
+	.philanthropic_row > .col-md-6 {
+		text-align: center !important;
+	}
+	.philanthropic_btn {
+		float: none !important;
+	}
+
+
+	.committee_meeting_table {
+		zoom: 80%;
+	}
+	.category_title {
+		font-size: 18px;
+	}
+	.category_title > img {
+		width: 80%;
+	}
+	.category_title > span {
+		position: inherit;
+		bottom: 0px;
+		left: 0;
+	}
+	.committee_meeting_table > tbody > tr > td, .committee_meeting_table > thead > tr > td {
+		padding: 1.5rem 1.5rem 1.5rem 1rem !important;
+		border-color: #f9f9fb;
+	}
+}
